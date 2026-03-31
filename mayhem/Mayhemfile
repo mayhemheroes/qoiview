@@ -1,0 +1,6 @@
+project: qoiview
+target: qoiview-fuzz
+
+cmds:
+    - cmd: ./qoiview-fuzz
+      libfuzzer: true
